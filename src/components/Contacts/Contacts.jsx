@@ -11,7 +11,6 @@ const Contacts = () => {
     const sendEmail = async (e) => {
         e.preventDefault();
 
-        
             await axios.post('https://dispatchng.herokuapp.com/email', email);
             setEmail('')
             .then(response => {
