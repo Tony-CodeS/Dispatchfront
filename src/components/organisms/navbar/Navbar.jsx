@@ -1,8 +1,7 @@
-import React from "react";
+import { React, useState } from 'react';
 import { Link } from 'react-scroll';
 import { ContactLink, Logo, MobileContentWrapper, MobileCTA, MobileMenu, MobileMenuBtn, MobileWrapper, Nav, NavClose, NavMenu } from './NavbarStyle'
 import logo from '../../../assets/images/navbarimg/img1.png'
-import { useState } from 'react';
 import FeatherIcon from "feather-icons-react";
 import Button from '../../atoms/Button';
 

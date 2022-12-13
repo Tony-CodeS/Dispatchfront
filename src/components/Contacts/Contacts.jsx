@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { React, useState } from 'react'
 import axios from 'axios'
 import Img2 from "../../assets/images/contacts/img2.png"
 import { ContactContents, ContactForm, ContactImg, ContactWrapper, EmailButton, EmailInput, FormWrapper, SectionWrapper } from './ContactsStyle'

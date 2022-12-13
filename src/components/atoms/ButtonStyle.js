@@ -7,7 +7,7 @@ import {
   Error,
   Warning,
   Info,
-} from "../atoms/Colors"
+} from "../Colors"
 
 const ButtonStyle = styled.button`
   font-weight: 800;
