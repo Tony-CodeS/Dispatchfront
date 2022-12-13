@@ -1,3 +1,4 @@
+import React from "react";
 import { GridRow, HeroWrapper, ServiceCard, ServicesContainer, ServiceText } from "./ServicesStyle"
 
 import img1 from "../../assets/images/sevicesimg/img1.png";

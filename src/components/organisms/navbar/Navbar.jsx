@@ -1,5 +1,4 @@
-
-// import { Link }  from 'react-router-dom';
+import React from "react";
 import { Link } from 'react-scroll';
 import { ContactLink, Logo, MobileContentWrapper, MobileCTA, MobileMenu, MobileMenuBtn, MobileWrapper, Nav, NavClose, NavMenu } from './NavbarStyle'
 import logo from '../../../assets/images/navbarimg/img1.png'

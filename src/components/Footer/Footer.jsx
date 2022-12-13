@@ -1,13 +1,10 @@
-import React from 'react'
-import { CopyRight, FooterContainer, FooterContent, FooterForm, FooterInput, FooterLink, FooterMenu, FooterWrapper, SocialIcon, SocialIconWrapper } from './FooterStyle'
+import React from "react";
+import { CopyRight, FooterContainer, FooterContent, FooterForm, FooterLink, FooterMenu, FooterWrapper, SocialIcon, SocialIconWrapper } from './FooterStyle'
 import logo from "../../assets/images/footer/img1.png"
 import { Link } from 'react-scroll'
-import { Link as LinkS } from 'react-router-dom'
 import { FaLinkedin, FaInstagram } from 'react-icons/fa'
-import { FiMessageSquare } from 'react-icons/fi'
 import { MdMessage } from 'react-icons/md'
 import { BsTwitter } from 'react-icons/bs'
-import FeatherIcon from 'feather-icons-react/build/FeatherIcon'
 
 import Hand from "../../assets/images/footer/img2.png"
 
