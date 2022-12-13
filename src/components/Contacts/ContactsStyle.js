@@ -19,6 +19,7 @@ export const SectionWrapper = styled.div`
 
 export const ContactWrapper = styled.div`
     padding: 24px 24px;
+    overflow: hidden;
 `
 export const ContactContents = styled.div`
     display: flex;

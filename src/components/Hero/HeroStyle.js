@@ -11,6 +11,7 @@ export const HeroWrapper = styled.div`
 export const TypeWriter = styled.div`
     display: flex;
     gap: 15px;
+    overflow: hidden;
 `
 export const TypeWriterText = styled.span`
     font-size: 28px;

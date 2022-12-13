@@ -2,6 +2,7 @@ import React from 'react'
 import { CopyRight, FooterContainer, FooterContent, FooterForm, FooterInput, FooterLink, FooterMenu, FooterWrapper, SocialIcon, SocialIconWrapper } from './FooterStyle'
 import logo from "../../assets/images/footer/img1.png"
 import { Link } from 'react-scroll'
+import { Link as LinkS } from 'react-router-dom'
 import { FaLinkedin, FaInstagram } from 'react-icons/fa'
 import { FiMessageSquare } from 'react-icons/fi'
 import { MdMessage } from 'react-icons/md'
@@ -84,9 +85,9 @@ const Footer = () => {
                   name="q"
                 />
                 <img src={Hand} alt='emoji' />
-                <button>
-                    <a href="https://wa.me/08138411863" target="_blank" rel="noopener noreferrer"><MdMessage size="25"/></a>
-                </button>
+                <span>
+                    <a href="https://wa.me/08065593093" target="_blank"><MdMessage size="25"/></a>
+                </span>
             </FooterForm>
 
             <SocialIcon>

@@ -121,18 +121,22 @@ export const FooterForm = styled.form`
     right: 60px;
     top: 2px;
   }
-  button {
+  span {
     position: absolute;
     bottom: -3px;
     width: 40px;
     height: 40px;
+    text-align: center;
     border-radius: 50%;
     background-color: #137547;
     color: #fff;
   }
-  button > a {
+  span > a {
+    position: absolute;
     text-decoration: none;
     color: #fff;
+    top: 10px;
+    right: 7px;
   }
 `
 export const FooterInput = styled.input`
